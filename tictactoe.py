@@ -1,7 +1,4 @@
 import sys
-# TODO: Player can move
-# TODO: AI moves accordingly
-# TODO: Checks who wins at every turn
 
 # Refer this to apply minimax algorithm: https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-3-tic-tac-toe-ai-finding-optimal-move/
 
@@ -124,10 +121,7 @@ def main():
         else:
             print('You win! Now go waste your time elsewhere.')
             break
-    """
-    if boardFull():
-        print('Tie Game!')
-    """
+
 
 
 if __name__=="__main__":
